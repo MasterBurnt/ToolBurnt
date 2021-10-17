@@ -52,7 +52,6 @@ ___]  |  |___ |__] |  | | \| |__| |__] |  \ |  | |    |  |   |  {c1}png\n"""
         """)        
         def encode(file):
             try:
-                #This Function Will Put data on picture
                 img = Image.open(file)
                 banner();banner1()
                 text = input(f"{c2}[?] {c1}Secret Text : ")
