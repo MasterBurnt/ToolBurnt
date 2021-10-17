@@ -13,6 +13,37 @@
 ### Introduction
 
 ++A toolbox that might come in handy++
+<pre>
+optional arguments:
+
+  -h, --help           show this help message and exit
+
+  -v, --version        Program Version
+
+  -i, --mysystem       My System Information
+
+  -FI, --FakeInfo      Fake Information : Json,Csv,Yaml,Xml
+
+  -IL, --IpLocation    Information About Ip
+
+  -UF, --UsernameFind  Find Usernames On Social Networks
+
+  -EL, --ExtractLink   Extract Links From Page
+
+  -HH, --HTTPHeaders   Reviewing HTTP Headers
+
+  -WI, --WhoIs         Query Protocol And Response
+
+  -PS, --PortScan      Port Scanner TCP
+
+  -PL, --ProxyList     Proxy List : Http,Https,Socks4&5
+
+  -PM, --PassMaker     Password List Maker
+
+  -CM, --ComboMaker    Combo List Maker
+
+  -SP, --SecretPng     Steganography 'png' 
+</pre>
 <br />
 <br />
 <img src="logo.png" />
