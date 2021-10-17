@@ -19,7 +19,7 @@ A toolbox that might come in handy =}
 <br /> 
 
 
-### How to Install
+### How To Install
 
 Open the terminal and type following commands.
 
@@ -34,6 +34,13 @@ or :
 <pre><code>chmod +x run</code></pre>
 In the end
 <br/>
+### How To Run
+<pre><code>./run </code></pre>
+or
+<pre><code>python3 run </code></pre>
+### wiki
+&nbsp; &nbsp; &nbsp;[English](https://github.com/MasterBurnt/ToolBurnt/wiki/English) &nbsp; &nbsp; &nbsp;[فارسی](https://github.com/MasterBurnt/ToolBurnt/wiki/Persian-home-page) 
+
 contact with me:
 <a href="https://t.me/TheBurnt">Talagram</a>
 <br />
