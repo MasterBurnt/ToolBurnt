@@ -1,0 +1,148 @@
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+#
+# @name   : ToolBurnt
+# @url    : http://github.com/MasterBurnt
+# @author : MasterBurnt
+
+from platform import python_version
+
+version = python_version().startswith('2', 0, len(python_version()))
+if version:
+    print('Are you using python version {}\n'
+          'Please, use version 3.X of python'.format(python_version()))
+    exit(1)
+
+        
+import sys
+from modules import sysinfo,tcpportscan,pagelinks,IpLocation,UsernameFind,HTTPHeaders,proxy,whois,password,combo,fakeinfo,imghid,banner
+
+banner = banner.banner
+try:
+    if str(sys.argv[1]) in ['--help','-h','--h']:
+        banner(1)
+    elif str(sys.argv[1]) in ["-v" , "--version",
+                              "-i" , "--MySystem",
+                              "-PS", "--PortScan", 
+                              "-PL", "--ProxyList",
+                              "-PM", "--PassMaker",
+                              "-WI", "--WhoIs", "-W",  
+                              "-UF", "--UsernameFind", "-U", 
+                              "-EL", "--ExtractLink", "-E", 
+                              "-IL", "--IpLocation", "I", 
+                              "-HH", "--HTTPHeaders", "-H",
+                              "-CM", "--ComboMaker", "-C", 
+                              "-FI", "--FakeInfo","-F", 
+                              "-SP", "SecretPng", "-S"
+                              ]:
+        pass
+    else:
+        banner(4)        
+except:
+    pass
+         
+import argparse
+
+parser = argparse.ArgumentParser(description = "'ToolBurnt' A Set Of Tools In One Place =} ",
+                                 epilog="Contact & Bug Report : t.me/TheBurnt =}")
+
+parser.add_argument('-v', '--version',
+                    help = "Program Version",
+                    action = 'store_true')
+
+parser.add_argument("-i", "--mysystem",
+                    help = "My System Information",
+                    action = "store_true")
+
+parser.add_argument("-FI", "--FakeInfo",
+                    help = "Fake Information : Json,Csv,Yaml,Xml",
+                    action = "store_true")
+
+parser.add_argument("-IL", "--IpLocation",
+                    help = "Information About Ip",
+                    action = "store_true") 
+                    
+parser.add_argument("-UF", "--UsernameFind",
+                    help = "Find Usernames On Social Networks",
+                    action = "store_true")                 
+
+parser.add_argument("-EL", "--ExtractLink",
+                    help = "Extract Links From Page",
+                    action = "store_true")
+
+parser.add_argument("-HH", "--HTTPHeaders",
+                    help = "Reviewing HTTP Headers",
+                    action = "store_true")
+
+parser.add_argument("-WI", "--WhoIs",
+                    help = "Query Protocol And Response",
+                    action = "store_true")
+
+parser.add_argument("-PS", "--PortScan",
+                    help = "Port Scanner TCP",
+                    action = "store_true") 
+                    
+parser.add_argument("-PL", "--ProxyList",
+                    help = "Proxy List : Http,Https,Socks4&5",
+                    action = "store_true")            
+
+parser.add_argument("-PM", "--PassMaker",
+                    help = "Password List Maker",
+                    action = "store_true")
+ 
+parser.add_argument("-CM", "--ComboMaker",
+                    help = "Combo List Maker",
+                    action = "store_true")
+parser.add_argument("-SP", "--SecretPng",
+                    help = "Steganography 'png'",
+                    action = "store_true")                    
+                    
+
+args = parser.parse_args()
+
+
+if args.version:
+    banner(3)
+                
+elif args.mysystem:
+    banner(2)
+    sysinfo.__start__()
+    
+elif args.PortScan:
+    tcpportscan.__start__()
+    
+elif args.UsernameFind:
+    UsernameFind.__start__()  
+      
+elif args.ExtractLink:
+    pagelinks.__start__()
+    
+elif args.IpLocation:
+    IpLocation.__start__()
+    
+elif args.HTTPHeaders:
+    HTTPHeaders.__start__()
+    
+elif args.ProxyList:
+    proxy.__start__()
+    
+elif args.WhoIs:
+    whois.__start__()
+    
+elif args.PassMaker:
+    password.__start__()
+    
+elif args.ComboMaker:
+    combo.__start__()
+    
+elif args.FakeInfo:
+    fakeinfo.__start__()
+    
+elif args.SecretPng:
+    imghid.__start__()    
+        
+else:
+    banner(1)   
+    parser.usage = parser.format_help()
+    print(parser.usage)
+
