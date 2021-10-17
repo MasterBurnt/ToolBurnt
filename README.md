@@ -30,7 +30,7 @@ Open the terminal and type following commands.
 <pre><code>cd ToolBurnt</code></pre>
 <pre><code>python3 setup.py install</code></pre>
 or : 
-<pre><code>pip3 install -r requirements.txt l</code></pre>
+<pre><code>pip3 install -r requirements.txt </code></pre>
 <pre><code>chmod +x run</code></pre>
 In the end
 <br/>
