@@ -11,7 +11,7 @@ try:
     import urllib.request 
 except ImportError as e:
     print(e)
-import datetime,os,signal,sys
+import datetime,os,sys
 from time import sleep 
 from colorama import Fore,init,Style 
 
