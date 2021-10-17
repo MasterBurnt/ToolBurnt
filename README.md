@@ -68,9 +68,7 @@ In the end
 ### How To Run
 <pre><code>./run --help</code></pre>
 or
-<pre><code>python3 run --help</code></pre>
-### wiki
-&nbsp; &nbsp; &nbsp;[English](https://github.com/MasterBurnt/ToolBurnt/wiki/English) &nbsp; &nbsp; &nbsp;[فارسی](https://github.com/MasterBurnt/ToolBurnt/wiki/Persian-home-page) 
+<pre><code>python3 run --help</code></pre> 
 
 contact with me:
 <a href="https://t.me/TheBurnt">Talagram</a>
