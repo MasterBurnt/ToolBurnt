@@ -69,7 +69,9 @@ In the end
 <pre><code>./run --help</code></pre>
 or
 <pre><code>python3 run --help</code></pre> 
-
+### Persian wiki
+<a href="https://github.com/MasterBurnt/ToolBurnt/wiki">فارسی</a>
+<br />
 contact with me:
 <a href="https://t.me/TheBurnt">Talagram</a>
 <br />
