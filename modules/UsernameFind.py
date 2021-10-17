@@ -8,6 +8,7 @@
 #Libraries
 try:
     import requests
+    from colorama import Fore,init,Style
 except ImportError as e:
     print(e)
     exit(0)
@@ -16,7 +17,7 @@ from concurrent.futures import ThreadPoolExecutor
 import threading
 import datetime,os,sys
 from time import sleep
-from colorama import Fore,init,Style 
+ 
 
 #C&B&I
 init()
