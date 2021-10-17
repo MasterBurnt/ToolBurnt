@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 #
-# @name   : whois
+# @name   : PassList
 # @url    : http://github.com/MasterBurnt
 # @author : MasterBurnt
 
