@@ -12,7 +12,7 @@
 
 ### Introduction
 
-A tool for receiving IP location information in json, csv, xml, NewLine, php formats
+A toolbox that might come in handy =} 
 <br />
 <br />
 <img src="logo.png" />
@@ -25,18 +25,13 @@ Open the terminal and type following commands.
 
 <pre><code>apt-get install git</code></pre>
 
-<pre><code>git clone https://github.com/MasterBurnt/IpLocation/</code></pre>
+<pre><code>git clone https://github.com/MasterBurnt/ToolBurnt/</code></pre>
 
-<pre><code>cd IpLocation</code></pre>
-<pre><code>bundle install</code></pre>
-
-### How to Use ?
-
-<pre><code>ruby run.rb</code></pre>
-or
-<pre><code>chmod +x run.rb</code></pre>
-<pre><code>./run.rb</code></pre>
-
+<pre><code>cd ToolBurnt</code></pre>
+<pre><code>python3 setup.py install</code></pre>
+or : 
+<pre><code>pip3 install -r requirements.txt l</code></pre>
+<pre><code>chmod +x run</code></pre>
 In the end
 <br/>
 contact with me:
