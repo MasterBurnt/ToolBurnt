@@ -72,9 +72,10 @@ or
 ### Persian wiki
 <a href="https://github.com/MasterBurnt/ToolBurnt/wiki">فارسی</a>
 <br />
+#### Good luck =|
 contact with me:
 <a href="https://t.me/TheBurnt">Talagram</a>
 <br />
 With Respect, Master Burnt
 <br />
-#### Good luck =|
+
