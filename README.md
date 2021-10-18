@@ -9,7 +9,7 @@
 ██████╔╝╚██████╔╝██║  ██║██║ ╚████║   ██║   
 ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝                                                                                                                                          
 </pre>
-
+[![Python](https://img.shields.io/badge/language-Python%203-blue.svg)](https://www.python.org)
 ### Introduction
 
 ++A toolbox that might come in handy++
